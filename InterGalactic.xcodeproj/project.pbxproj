@@ -13,6 +13,8 @@
 		9826CE1A256C3E4800BAABA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9826CE18256C3E4800BAABA3 /* Main.storyboard */; };
 		9826CE1C256C3E4900BAABA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9826CE1B256C3E4900BAABA3 /* Assets.xcassets */; };
 		9826CE1F256C3E4900BAABA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9826CE1D256C3E4900BAABA3 /* LaunchScreen.storyboard */; };
+		9826CE29256C3E8300BAABA3 /* PlanetPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826CE28256C3E8300BAABA3 /* PlanetPickerVC.swift */; };
+		9826CE2C256C3FEA00BAABA3 /* PlanetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826CE2B256C3FEA00BAABA3 /* PlanetCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9826CE1B256C3E4900BAABA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9826CE1E256C3E4900BAABA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9826CE20256C3E4900BAABA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9826CE28256C3E8300BAABA3 /* PlanetPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetPickerVC.swift; sourceTree = "<group>"; };
+		9826CE2B256C3FEA00BAABA3 /* PlanetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		9826CE11256C3E4800BAABA3 /* InterGalactic */ = {
 			isa = PBXGroup;
 			children = (
+				9826CE18256C3E4800BAABA3 /* Main.storyboard */,
+				9826CE28256C3E8300BAABA3 /* PlanetPickerVC.swift */,
+				9826CE2B256C3FEA00BAABA3 /* PlanetCell.swift */,
 				9826CE12256C3E4800BAABA3 /* AppDelegate.swift */,
 				9826CE14256C3E4800BAABA3 /* art.scnassets */,
 				9826CE16256C3E4800BAABA3 /* ViewController.swift */,
-				9826CE18256C3E4800BAABA3 /* Main.storyboard */,
 				9826CE1B256C3E4900BAABA3 /* Assets.xcassets */,
 				9826CE1D256C3E4900BAABA3 /* LaunchScreen.storyboard */,
 				9826CE20256C3E4900BAABA3 /* Info.plist */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9826CE17256C3E4800BAABA3 /* ViewController.swift in Sources */,
+				9826CE29256C3E8300BAABA3 /* PlanetPickerVC.swift in Sources */,
 				9826CE13256C3E4800BAABA3 /* AppDelegate.swift in Sources */,
+				9826CE2C256C3FEA00BAABA3 /* PlanetCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
